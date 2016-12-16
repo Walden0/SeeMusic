@@ -44,6 +44,11 @@
     <servlet-name>Recommend</servlet-name>
     <servlet-class>servlet.Recommend</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>Encipher</servlet-name>
+    <servlet-class>servlet.Encipher</servlet-class>
+  </servlet>
+
 
 
 
@@ -82,6 +87,10 @@
   <servlet-mapping>
     <servlet-name>Recommend</servlet-name>
     <url-pattern>/Recommend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Encipher</servlet-name>
+    <url-pattern>/Encipher</url-pattern>
   </servlet-mapping>	
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
