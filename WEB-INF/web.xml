@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Song</servlet-name>
+    <servlet-class>servlet.Song</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Comments</servlet-name>
+    <servlet-class>servlet.Comments</servlet-class>
+  </servlet>
+  <servlet>
+
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+
+    <servlet-name>User_Info</servlet-name>
+    <servlet-class>servlet.User_Info</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addto_List</servlet-name>
+    <servlet-class>servlet.Addto_List</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Add_friends</servlet-name>
+    <servlet-class>servlet.Add_friends</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Get_friend_list</servlet-name>
+    <servlet-class>servlet.Get_friend_list</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Recommend</servlet-name>
+    <servlet-class>servlet.Recommend</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Song</servlet-name>
+    <url-pattern>/Song</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Comments</servlet-name>
+    <url-pattern>/Comments</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Info</servlet-name>
+    <url-pattern>/User_Info</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addto_List</servlet-name>
+    <url-pattern>/Addto_List</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add_friends</servlet-name>
+    <url-pattern>/Add_friends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Get_friend_list</servlet-name>
+    <url-pattern>/Get_friend_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Recommend</servlet-name>
+    <url-pattern>/Recommend</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
